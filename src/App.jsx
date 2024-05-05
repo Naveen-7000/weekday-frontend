@@ -1,11 +1,14 @@
+import { Provider } from 'react-redux'
 import './App.css'
+import store from './redux/store'
+import SearchJob from './pages/searchJobs/SearchJob'
 
 function App() {
 
   return (
-    <div>
-         Welcome to weekday
-    </div>
+    <Provider store={store}>
+    <SearchJob />
+    </Provider>
   )
 }
 
