@@ -1,0 +1,38 @@
+.sidebar {
+    width: 5rem;
+}
+
+.sidebar-expanded {
+    width: 12rem;
+}
+
+.sidebar, .sidebar-expanded {
+    height: 100%;
+    background-color: black;
+    color: #ffffff;
+    padding: 12px;
+    position: relative;
+    transition: width 0.5s ease, right 0.5s ease;
+}
+
+.expand-button {
+    position: absolute;
+    top: 5%;
+    padding: 2px;
+    border: 2px solid rgb(210, 210, 210); 
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.5s ease, right 0.5s ease;
+}
+
+.sidebar .expand-button {
+    right: -16%;
+}
+
+.sidebar-expanded .expand-button{
+    right: -7%;
+}
