@@ -1,21 +1,15 @@
-import { useDispatch, useSelector } from 'react-redux'
-import { addJobs } from '../../redux/actions';
+// import { useDispatch, useSelector } from 'react-redux'
+// import { addJobs } from '../../redux/actions';
+import JobTitle from "../../components/JobTitle";
+import "./SearchJob.css";
 
 const SearchJob = () => {
-    const dispatch = useDispatch();
-    const jobs = useSelector((state)=>state.jobs);
-
-    const createNewJob = () =>{
-        const newJobs = {
-            name:'Credanic',
-            published:"Today",
-            Description:"Hello credanic is hiring frontend developer"
-        }
-        dispatch(addJobs(newJobs))
-    }
+    // const dispatch = useDispatch();
+    // const jobs = useSelector((state)=>state.jobs);
 
   return (
-    <div>
+    <div className="jobs-container">
+      <JobTitle />
     </div>
   )
 }

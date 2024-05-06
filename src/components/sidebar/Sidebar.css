@@ -1,5 +1,5 @@
 .sidebar {
-    width: 5rem;
+    width: 6rem;
 }
 
 .sidebar-expanded {
@@ -8,19 +8,25 @@
 
 .sidebar, .sidebar-expanded {
     height: 100%;
-    background-color: black;
+    background-color: white;
     color: #ffffff;
-    padding: 12px;
+    padding: 1rem;
     position: relative;
     transition: width 0.5s ease, right 0.5s ease;
+    border-right: 1px solid rgb(210, 210, 210);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
 }
 
 .expand-button {
     position: absolute;
     top: 5%;
-    padding: 2px;
+    padding: 1px;
     border: 2px solid rgb(210, 210, 210); 
-    border-radius: 8px;
+    border-radius: 12px;
     background-color: white;
     color: black;
     display: flex;
@@ -35,4 +41,54 @@
 
 .sidebar-expanded .expand-button{
     right: -7%;
+}
+
+.logo {
+    width: 44px;
+}
+
+.sidebar-expanded .logo {
+    width: 130px;
+    transition: width 0.5s ease, right 0.5s ease;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.get-jobs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.icon{
+    color: black;
+}
+
+.sidebar-expanded .get-jobs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    transition: all 0.5s ease;
+}
+
+.sidebar-expanded .get-jobs p{
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: gray;
 }
