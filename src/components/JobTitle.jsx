@@ -12,7 +12,7 @@ const JobTitle = () => {
       }}
     >
       <div className="link-container">
-        <p className="search-link">Search Jobs</p>
+        <p className="search-link">Search jobs</p>
       </div>
     </Badge>
   );
