@@ -4,15 +4,16 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import { ChevronRight, CurrencyRupee, PersonAddOutlined, Search } from "@mui/icons-material";
 import Divider from '@mui/material/Divider';
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import { Box } from "@mui/material";
 
 const Sidebar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   return (
     <div className={`${isExpanded ? "sidebar-expanded" : "sidebar"}`}>
 {/* toggler */}
-      <div className="expand-button" onClick={() => setIsExpanded(!isExpanded)}>
+      <Box className="expand-button" onClick={() => setIsExpanded(!isExpanded)}>
         {isExpanded ? <ChevronLeftIcon /> : <ChevronRight />}
-      </div>
+      </Box>
       {/* main content */}
       <div className="menu-items">
         <img src={isExpanded ? "https://jobs.weekday.works/_next/static/media/logo.268caeb2.png" :"https://jobs.weekday.works/_next/static/media/logo-small.08826abd.png"} className="logo" />

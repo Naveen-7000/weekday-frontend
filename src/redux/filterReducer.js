@@ -12,6 +12,7 @@ const initialState = {
     remote: [],
     minBasePay: [],
     companyName: [],
+    techStacks: [],
   },
 };
 

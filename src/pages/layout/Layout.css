@@ -4,4 +4,13 @@
     position: relative;
     background-color: white;
     display: flex;
+    overflow: auto;
+}
+
+.content-container{
+    display: flex;
+    max-height: 100%;
+    overflow-y: scroll !important;
+    scroll-behavior: smooth !important;
+    scroll-margin-bottom: 90px !important;
 }

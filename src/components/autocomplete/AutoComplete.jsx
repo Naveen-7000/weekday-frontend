@@ -19,7 +19,6 @@ const StyledAutocomplete = styled(Autocomplete)(() => ({
   },
   "& button.MuiButtonBase-root": {
     visibility: "visible",
-    paddingRight: "4px",
   },
   "& .MuiChip-deleteIcon": {
     color: "black",
@@ -47,12 +46,12 @@ const AutoComplete = ({id, placeholder, options, label,multiple }) => {
   return (
     <Box>
       {multiple && selectedValues.length > 0 && (
-        <Typography variant="body1" component="div" sx={{ position: 'absolute', top: '-42%', left: '2', fontSize:"14px" }}>
+        <Typography variant="body1" component="div" sx={{ position: 'absolute', top: '-46%', left: '2', fontSize:"14px" }}>
           {label}
         </Typography>
       )}
       {!multiple && selectedValues !== null && (
-        <Typography variant="body1" component="div" sx={{ position: 'absolute', top: '-44%', left: '2', fontSize:"14px" }}>
+        <Typography variant="body1" component="div" sx={{ position: 'absolute', top: '-46%', left: '2', fontSize:"14px" }}>
           {label}
         </Typography>
       )}
