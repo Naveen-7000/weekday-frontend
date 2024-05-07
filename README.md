@@ -36,7 +36,7 @@ weekday/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Naveen-7000/weekday-frontend.git
+   git clone [https://github.com/Naveen-7000/weekday-frontend.git](https://github.com/Naveen-7000/weekday-frontend.git)
 
 2. **Navigate to folder:**
     ```bash
