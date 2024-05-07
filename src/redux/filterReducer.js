@@ -1,9 +1,6 @@
-// reducers/filtersReducer.js
-
 import { createReducer } from "@reduxjs/toolkit";
-import { updateFilterOptions } from "./actions"; // Assuming you have an action creator for updating filter options
+import { updateFilterOptions } from "./actions";
 
-// Define initial state for filters
 const initialState = {
   filters: {
     roles: [],
@@ -16,11 +13,10 @@ const initialState = {
   },
 };
 
-// Create a reducer function to handle filter actions
+// so here this reducer is to add filters and updated values based on filter types
 const filtersReducer = createReducer(initialState, (builder) => {
   builder.addCase(updateFilterOptions, (state, action) => {
     const { filterType, options } = action.payload;
-    // Update filter options based on filterType
     state.filters[filterType] = options;
   });
 });

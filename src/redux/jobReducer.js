@@ -10,7 +10,7 @@ const initialState = {
 //  here addJobs is action that will handle adding jobs after every fetch request
 const jobsReducer = createReducer(initialState,(builder)=>{
     builder.addCase(addJobs,(state,action)=>{
-        state.jobs = action.payload;
+        state.jobs = [...state.jobs,...action.payload];
     })
     .addCase(addTotalPages, (state, action) => {
         state.totalPages = action.payload;

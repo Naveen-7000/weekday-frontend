@@ -12,10 +12,12 @@ import {
 } from "@mui/material";
 import { updateFilterOptions } from "../../redux/actions";
 
+// custom style for delete icon and chips i tried to mimic the weekday style here
 const StyledAutocomplete = styled(Autocomplete)(() => ({
   "& .MuiChip-root": {
     borderRadius: "4px",
-    fontSize: "14px"
+    fontSize: "14px",
+    padding: "0"
   },
   "& button.MuiButtonBase-root": {
     visibility: "visible",

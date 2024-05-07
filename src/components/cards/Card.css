@@ -114,7 +114,8 @@
 .footer{
     width: 100%;
     margin-top: 4px;
-    text-align: center;
+    text-align: left;
+    padding-left: 6px;
   
 }
 .footer .apply-button{
@@ -124,4 +125,5 @@
     padding: 6px;
     border-radius: 6px;
     cursor: pointer;
+    margin-top: 4px;
 }

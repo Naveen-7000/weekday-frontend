@@ -1,6 +1,9 @@
 import { Box } from "@mui/material";
 import Sidebar from "../../components/sidebar/Sidebar";
 import "./Layout.css";
+
+
+//  basic layout for sidebar and content page(search jobs)
 const Layout = ({ children }) => {
   return (
     <Box className="layout-container">

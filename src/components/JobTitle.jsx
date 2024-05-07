@@ -1,10 +1,10 @@
 import { Badge } from "@mui/material";
 import "../pages/searchJobs/SearchJob.css";
 
-const JobTitle = () => {
+const JobTitle = ({jobsCount}) => {
   return (
     <Badge
-      badgeContent={48}
+      badgeContent={jobsCount}
       color="primary"
       anchorOrigin={{
         vertical: "top",
