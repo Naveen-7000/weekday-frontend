@@ -1,8 +1,52 @@
-# React + Vite
+# Weekday SDE-1(Frontend) Assignement
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the complete assignment for the Weekday SDE-1 role.
 
-Currently, two official plugins are available:
+# Tech
+1. React
+2. Javascript(for simplicity of project I would have used  would also be done on typescript).
+3. Material UI
+4. Vanilla CSS and Inline style of jsx
+5. Redux-toolkit
+6. Intersection Observer API(for handling infinite scroll)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Folder structure 
+weekday/
+├── node_modules/ # Dependencies installed via npm or yarn
+├── public/ # Static files served by the web server
+│ ├── index.html # Main HTML file
+│ └── favicon.png # Favicon
+├── src/ # Source code directory
+│ ├── components/ # React components
+│ ├── styles/ # CSS or SCSS stylesheets
+│ ├── App.js # Main React component
+│ └── index.js # Entry point for React application
+├── .gitignore # Specifies intentionally untracked files to ignore
+├── package.json # Project metadata and dependencies
+└── vite.config.js # Vite configuration file
+
+## Setup Instructions
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Naveen-7000/weekday-frontend.git
+
+2. **Navigate to folder:**
+    ```bash
+    cd weekday
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    
+4.   **Start the development server:**
+    ```bash
+      npm run dev
+
+
+# Here is the Demo Video(drive):
+https://drive.google.com/file/d/12dBOGiXAOocsvg2HlVFPkdU-Ciml_CK7/view?usp=sharing
+
+Enjoy the application :) 
+
+Thanks for the opportunity and consideration.
