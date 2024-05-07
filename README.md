@@ -12,7 +12,7 @@ This is the complete assignment for the Weekday SDE-1 role.
 
 # Folder structure 
 weekday/
-├── node_modules/ # Dependencies installed via npm or yarn
+├── node_modules/ # Dependencies installed via npm
 
 ├── public/ # Static files served by the web server
 
