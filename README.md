@@ -13,16 +13,23 @@ This is the complete assignment for the Weekday SDE-1 role.
 # Folder structure 
 weekday/
 ├── node_modules/ # Dependencies installed via npm or yarn
+
 ├── public/ # Static files served by the web server
+
 │ ├── index.html # Main HTML file
-│ └── favicon.png # Favicon
+
 ├── src/ # Source code directory
+
 │ ├── components/ # React components
+
 │ ├── styles/ # CSS or SCSS stylesheets
+
 │ ├── App.js # Main React component
+
 │ └── index.js # Entry point for React application
-├── .gitignore # Specifies intentionally untracked files to ignore
+
 ├── package.json # Project metadata and dependencies
+
 └── vite.config.js # Vite configuration file
 
 ## Setup Instructions
