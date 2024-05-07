@@ -48,7 +48,9 @@ weekday/
     
 4.   **Start the development server:**
     ```bash
-  npm run dev
+    npm run dev
+
+Open the http://localhost:5173/ into chrome.
 
 
 # Here is the Demo Video(drive):
